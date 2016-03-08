@@ -1,0 +1,32 @@
+{
+  "name": "sockjs-multichannel",
+  "version": "1.0.0",
+  "description": "allow create channels on top of sockjs with nodejs client",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterviana/sockjs-multichannel.git"
+  },
+  "keywords": [
+    "sockjs",
+    "websockets",
+    "channels",
+    "node"
+  ],
+  "author": "vitor viana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterviana/sockjs-multichannel/issues"
+  },
+  "homepage": "https://github.com/masterviana/sockjs-multichannel#readme",
+  "dependencies": {
+    "sockjs-client-ws": "0.1.0"
+  }
+}
