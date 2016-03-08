@@ -2,11 +2,11 @@
 ===================
 
 **sockjs-multichannel** is a small library on top of SockJS that allows
-you to create channels (multiplex) over a single SockJS connection.
-
-It's created based on library [websocket-multiplex ](https://github.com/sockjs/websocket-multiplex) but have added the abillity to create sockjs clients in nodejs.
+you to create channels (multiplex) over a single SockJS connection also have the ability to create server and client in node instead only in browsers. 
+It's created based on library [websocket-multiplex](https://github.com/sockjs/websocket-multiplex)
 
 To learn more about the problem of multiplexing channels in a single connection please read more [here](https://www.rabbitmq.com/blog/2012/02/23/how-to-compose-apps-using-websockets/)
+
 
 ### How to use 
 ===================
@@ -71,6 +71,8 @@ setInterval(function(){
     red.send("client : red channel sent this!!");
 },1000);
 ```
+
+See a more detailed examples [here](https://github.com/masterviana/sockjs-multichannel/tree/master/examples)
 
 
 I hope it's useful!
