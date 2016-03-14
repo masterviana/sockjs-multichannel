@@ -1,6 +1,8 @@
 ## Sockjs Multichannel
 ===================
 
+[![NPM](https://nodei.co/npm/sockjs-multichannel.png)](https://nodei.co/npm/sockjs-multichannel/)
+
 **sockjs-multichannel** is a small library on top of SockJS that allows
 you to create channels (multiplex) over a single SockJS connection also have the ability to create server and client in node instead only in browsers. 
 It's created based on library [websocket-multiplex](https://github.com/sockjs/websocket-multiplex)
