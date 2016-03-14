@@ -1,5 +1,4 @@
 ## Sockjs Multichannel
-===================
 
 [![NPM](https://nodei.co/npm/sockjs-multichannel.png)](https://nodei.co/npm/sockjs-multichannel/)
 
